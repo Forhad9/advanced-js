@@ -4,10 +4,10 @@ const students = [
     {id: 43, name: 'Salman'},
     {id: 45, name: 'Tomtom'},
 ];
-var nameArray = [];
-for(var i =0; i < students.length; i++){
-    var studentName = students[i];
-    var justName = studentName.name;
+let nameArray = [];
+for(let i =0; i < students.length; i++){
+    const studentName = students[i];
+    const justName = studentName.name;
     nameArray.push(justName);    
 
 }
