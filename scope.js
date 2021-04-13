@@ -15,5 +15,5 @@ function add(num1, num2){
 const total = add(12, 12);
 console.log(total);
 
-// console.log(result);
-//
+console.log(result);
+
